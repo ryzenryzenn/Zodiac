@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="design.css">
+
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap.css">
+<iframe class="music" width="560" height="315" src="https://www.youtube.com/embed/OD8HYH1ZpUM?rel=&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+
+<body style="font-family: 'Fredoka One', cursive; color: white;">
+
+
+    <section class="container-fluid">
+
+        <section class="row justify-content-center">
+            <section class="col-12 col-sm-6 col-md-3">
+                <form class="form-container">
+                    <div class="form-group">
+                        <div class="container">
+                            <h1 class="text-center color">ZODIAC SIGN</h1>
+                        </div>
+                        <label for="Day">Day</label>
+                        <input type="number" class="form-control" id="day" min="1" max="31" required>
+                        <div class="text-center">
+                            <small id="" class="form-text text-center"><b>DAY</b></small>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Month">Month</label>
+                        <input type="number" class="form-control" id="month" min="1" max="12" required>
+                    </div>
+                    <div class="text-center">
+                        <small id="" class="form-text text-center"><b>MONTH</b></small>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <a class="btn btn-primary btn-center" onclick="zodiac()">Submit</a>
+                    </div>
+
+                    <center>
+                        <p id="photo" class="paragraph1">
+                    </center>
+                    </p>
+                    <p id="space" class="paragraph"></p>
+                    <center>
+                        <h2>Your zodiac sign is</h2> <span id="output" style="color: #000;"></span></center>
+                    </p>
+                    <p id="characteristic" class="paragraph"></p>
+
+                </form>
+
+            </section>
+        </section>
+
+    </section>
+ 
+
+</body>
+
+
+<script type="text/javascript" src="myjs.js"></script>
